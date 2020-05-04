@@ -1,0 +1,337 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url("../src/fonts/");
+  src: local("../src/fonts/Gilroy Regular"), local("Gilroy-Regular"), url("../src/fonts/?#iefix") format("embedded-opentype"), url("../src/fonts/.woff") format("woff"), url("../src/fonts/.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url("../src/fonts/");
+  src: local("../src/fonts/Gilroy Bold"), local("Gilroy-Bold"), url("../src/fonts/?#iefix") format("embedded-opentype"), url("../src/fonts/.woff") format("woff"), url("../src/fonts/.ttf") format("truetype");
+  font-weight: bold;
+  font-style: bold;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Gilroy';
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.header {
+  background: #F5385A;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 0;
+}
+
+.nav-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.nav-logo__png {
+  max-width: 100px;
+  margin-right: 15px;
+}
+
+.nav-btn {
+  color: #484360;
+  border: none;
+  outline: 0;
+  padding: 16px 51px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 700;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.nav-btn:hover {
+  -webkit-box-shadow: 0 0 20px #B4223D;
+          box-shadow: 0 0 20px #B4223D;
+}
+
+.nav-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-menu__item {
+  font-size: 18px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.nav-menu__item:hover {
+  text-shadow: 0 0 20px #1E1A1B;
+}
+
+.nav-menu__item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.mockup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mockup-img {
+  margin-top: 50px;
+  max-height: 800px;
+}
+
+.title {
+  font-size: 65px;
+}
+
+.subtitle {
+  font-size: 24px;
+}
+
+.section {
+  margin-top: 80px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 42px;
+  color: #F5385A;
+}
+
+.section-subtitle {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 60px;
+  line-height: 1.5;
+}
+
+.section-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.section-item {
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+}
+
+.section-item__title {
+  display: block;
+  font-size: 27px;
+  font-weight: 700;
+  margin-top: 40px;
+  color: #A7156F;
+}
+
+.section-item__subtitle {
+  font-size: 19px;
+  line-height: 1.5;
+}
+
+.section-img {
+  border-radius: 37px;
+}
+
+.beauty {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.beauty-img {
+  max-width: 280px;
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
+  margin-top: 15px;
+}
+
+.beauty-img:nth-child(4n) {
+  margin-right: 5px;
+}
+
+.slider {
+  margin: 250px 0;
+}
+
+.slider-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 40px;
+}
+
+.slider-star:not(:last-child) {
+  margin-right: 7px;
+}
+
+.slider-review {
+  text-align: center;
+  font-size: 26px;
+}
+
+.slider-name {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  color: #1D1D1F;
+}
+
+.slider-date {
+  text-align: center;
+  font-size: 26px;
+  color: #575757;
+}
+
+.banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background: url("../img/dance.jpg") center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.banner-title {
+  text-align: center;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.banner-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #484360;
+  vertical-align: middle;
+  border: none;
+  outline: 0;
+  padding: 16px 51px;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 700;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.banner-btn__text {
+  margin-left: 20px;
+}
+
+.banner-btn:hover {
+  -webkit-box-shadow: 0 0 20px #000000;
+          box-shadow: 0 0 20px #000000;
+}
+
+.footer-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 70px 0;
+}
+
+.footer-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-info__item {
+  margin-right: 15px;
+  color: #000000;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.footer-info__item:hover {
+  color: #F5385A;
+}
+
+.footer-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-link:not(:last-child) {
+  margin-right: 10px;
+}
+/*# sourceMappingURL=style.css.map */
