@@ -48,6 +48,26 @@ a {
   padding-bottom: 300px;
 }
 
+.hero-btn {
+  background: linear-gradient(199.44deg, #EA0C43 0%, #C821B2 100%);
+  -webkit-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 60px;
+  padding: 20px 30px;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.hero-btn:hover {
+  -webkit-box-shadow: 0 0 20px #B4223D;
+          box-shadow: 0 0 20px #B4223D;
+}
+
 .nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -138,11 +158,13 @@ a {
 }
 
 .title-block {
+  margin-top: -60px;
   color: #ffffff;
 }
 
 .subtitle {
   font-size: 24px;
+  margin-bottom: 43.5px;
 }
 
 .section {
